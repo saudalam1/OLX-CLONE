@@ -16,16 +16,20 @@ body {
 header{
     display: flex;
     justify-content: center;
+    margin-bottom : 140px;
+    margin-left: 140px;
+    margin-top: 20px;
 }
 
 .main-container{
     /* border: 1px solid var(--border); */
-    /* position: fixed; */
+    position: fixed;
     z-index: 10;
     width: 100%;
     background-color: white;  
     margin-top: -18px;
 }
+
 
 
 .container-1 {
@@ -251,6 +255,89 @@ h2{
     font-family: var(--font);
     width: 100px;
 }
+
+
+.cards{
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid var(--border);
+    height: 320px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+
+.card img{
+    /* margin-top: 10px; */
+    border-radius: 5px;
+}
+
+.mobiles{
+    font-family: var(--font);
+    font-size: 20px;
+}
+
+
+.text{
+    font-family: var(--font);
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+
+.text-2{
+    color: #858585;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: var(--font);
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
