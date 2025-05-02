@@ -3,18 +3,28 @@
 :root {
     --border: rgb(220, 220, 220);
     --icon: #002F34;
+    --weight: 20;
+    --hover: blue;
+    --font: roboto;
 }
 
 body {
     padding: 0px;
-    margin: 0px;
+    margin: 0px 80px 0px 80px;
 }
 
 header{
-    border: 1px solid var(--border);
-    position: fixed;
-    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    /* border: 1px solid var(--border); */
+    /* position: fixed; */
+    z-index: 10;
     width: 100%;
+    background-color: white;  
+    margin-top: -18px;
 }
 
 
@@ -22,7 +32,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-left: 150px;
+    margin-left: 70px;
     gap: 50px;
     margin-top: 20px;
 }
@@ -95,7 +105,7 @@ header{
     border-radius: 5px;
     width: 300px;
     height: 50px;
-    margin-left: 150px;
+    margin-left: 70px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -189,6 +199,60 @@ header{
 
 
 
+.categories ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+
+.categories ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: roboto;
+    font-weight: var(--weight);
+    font-size: 14px;
+
+}
+
+.categories ul li a:hover{
+    color: var(--hover);
+}
+
+.ads-1{
+    display: flex;
+    justify-content: center;
+}
+
+.ads-2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.cat-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 0px 70px;
+}
+
+h2{
+    font-family: var(--font);
+    margin-left: 80px;
+}
+
+.selection{
+    text-align: center;
+    font-family: var(--font);
+    width: 100px;
+}
+
+
 
 /* 
 IPAD PRO */
@@ -226,6 +290,9 @@ IPAD PRO */
     }
 
 }
+
+
+
 
 
 
